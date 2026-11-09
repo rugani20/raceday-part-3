@@ -35,7 +35,7 @@ Set this to where your Part 2 API runs. Override with the env variable `ApiSetti
 ## Run locally
 1. Start the Part 2 API.
 2. `cd RaceDay.Mvc && dotnet run`
-
+Add validation for event form inputs
 ## Run with Docker (single command)
 From the repository root, with the API running on your machine at port 5000:
 ```
