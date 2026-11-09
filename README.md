@@ -11,6 +11,7 @@ Authentication state and role are kept in ASP.NET Core **session**; protected pa
 Create participant enrolment and unenrolment functionality
 ## Project structure
 ```
+Add OrganiserController with event management actions
 Implement ParticipantController with enrolment logic
 Add Organiser Dashboard with event statistics
 RaceDay.Mvc/
