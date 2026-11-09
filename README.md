@@ -39,7 +39,7 @@ From the repository root, with the API running on your machine at port 5000:
 docker build -t raceday-mvc ./RaceDay.Mvc && docker run --rm -p 8080:8080 -e ApiSettings__BaseUrl=http://host.docker.internal:5000/ raceday-mvc
 ```
 Open http://localhost:8080. (On Linux add `--add-host=host.docker.internal:host-gateway`.)
-
+Implement SessionAuthorize filter for route protection
 ## Azure Blob Storage
 See `docs/API-BlobStorage.md`. Banner and profile images are posted to the API, stored in Blob Storage, and the returned URL is displayed on the event detail page / profile.
 Final testing and bug fixes for event management flow
