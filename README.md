@@ -21,7 +21,7 @@ RaceDay.Mvc/
 docs/API-BlobStorage.md   (Azure Blob integration added to the API)
 .github/workflows/ci.yml  (builds API + MVC + Docker image)
 ```
-
+Add database models for Events, Users, and Enrolments
 ## Configuration
 `RaceDay.Mvc/appsettings.json`:
 ```json
