@@ -45,5 +45,7 @@ Implement SessionAuthorize filter for route protection
 See `docs/API-BlobStorage.md`. Banner and profile images are posted to the API, stored in Blob Storage, and the returned URL is displayed on the event detail page / profile.
 Final testing and bug fixes for event management flow
 Style frontend with Bootstrap and custom RaceDay theme
+Implement SessionAuthorize filter for route protection
+
 ## Demo video
 YouTube (unlisted): <ADD LINK HERE>
