@@ -50,6 +50,7 @@ Final testing and bug fixes for event management flow
 Style frontend with Bootstrap and custom RaceDay theme
 Implement SessionAuthorize filter for route protection
 Create EventForm view for creating and editing events
+Configure Entity Framework with SQL Server connection
 
 ## Demo video
 YouTube (unlisted): <ADD LINK HERE>
