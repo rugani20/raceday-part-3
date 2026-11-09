@@ -48,6 +48,7 @@ See `docs/API-BlobStorage.md`. Banner and profile images are posted to the API, 
 Final testing and bug fixes for event management flow
 Style frontend with Bootstrap and custom RaceDay theme
 Implement SessionAuthorize filter for route protection
+Create EventForm view for creating and editing events
 
 ## Demo video
 YouTube (unlisted): <ADD LINK HERE>
