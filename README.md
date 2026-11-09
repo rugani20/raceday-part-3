@@ -2,7 +2,7 @@
 # RaceDay - Part 3: MVC Web Application
 
 ASP.NET Core 8 MVC front end for the RaceDay platform. It consumes the Part 2 REST API for **all** data (no database access or business logic in the MVC project). Images are uploaded to Azure Blob Storage **through the API**.
-
+Add CategoriesController for event categories
 ## Roles
 - **Organiser**: dashboard, create/edit/delete events (with banner), categories, view enrolments, publish results.
 - **Participant**: browse/filter upcoming events, event details, enrol with a category, my enrolments (colour-coded status), my results (e.g. 47th out of 312 finishers), profile + profile picture.
