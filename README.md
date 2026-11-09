@@ -1,6 +1,6 @@
 # raceday-part-3
 # RaceDay - Part 3: MVC Web Application
-
+Add validation for event form inputs
 ASP.NET Core 8 MVC front end for the RaceDay platform. It consumes the Part 2 REST API for **all** data (no database access or business logic in the MVC project). Images are uploaded to Azure Blob Storage **through the API**.
 Add CategoriesController for event categories
 ## Roles
