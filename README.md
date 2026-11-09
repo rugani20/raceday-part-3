@@ -42,6 +42,7 @@ Open http://localhost:8080. (On Linux add `--add-host=host.docker.internal:host-
 
 ## Azure Blob Storage
 See `docs/API-BlobStorage.md`. Banner and profile images are posted to the API, stored in Blob Storage, and the returned URL is displayed on the event detail page / profile.
+Final testing and bug fixes for event management flow
 
 ## Demo video
 YouTube (unlisted): <ADD LINK HERE>
