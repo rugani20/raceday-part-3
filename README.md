@@ -8,7 +8,7 @@ Add CategoriesController for event categories
 - **Participant**: browse/filter upcoming events, event details, enrol with a category, my enrolments (colour-coded status), my results (e.g. 47th out of 312 finishers), profile + profile picture.
 Add ApiClient service for MVC to API communication
 Authentication state and role are kept in ASP.NET Core **session**; protected pages use a `SessionAuth` filter and redirect unauthenticated users to Login.
-
+Create participant enrolment and unenrolment functionality
 ## Project structure
 ```
 RaceDay.Mvc/
