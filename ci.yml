@@ -1,0 +1,22 @@
+name: CI
+on:
+  push:
+    branches: [ main, part3-mvc ]
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with: { dotnet-version: '8.0.x' }
+      # Part 2 API (adjust the path to your API project/solution folder)
+      - name: Build API
+        run: dotnet build ./RaceDay.Api --configuration Release
+      - name: Test API
+        run: dotnet test ./RaceDay.Api.Tests --configuration Release
+      # Part 3 MVC
+      - name: Build MVC
+        run: dotnet build ./RaceDay.Mvc --configuration Release
+      - name: Build Docker image
+        run: docker build -t raceday-mvc ./RaceDay.Mvc
